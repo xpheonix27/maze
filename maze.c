@@ -84,9 +84,9 @@ void pm(){
 	printf("Controls: W/A/S/D | Press Q to Quit\n\n");
 	//warnings
 	if (h==1)
-		puts("Can't Phase Through a Wall ");
+		puts("Can't Phase Through Walls\n ");
 	else if (h==2)
-		puts("Invalid Command");
+		puts("Invalid Command\n");
 	else
 		printf("\n\n");
 	int i,j;
